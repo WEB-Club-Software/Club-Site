@@ -1,0 +1,44 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background: #202020;
+    color: #fff;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    @apply font-base !important;
+    box-sizing: border-box;
+    /*border: 1px solid red;*/
+}
+
+.center {
+    @apply flex justify-center items-center;
+}
+
+.center-col {
+    @apply flex flex-col justify-center items-center;
+}
+
+.bottom {
+    @apply absolute bottom-0;
+}
+
+.top {
+    @apply absolute top-0;
+}
+
+.no-outline {
+    @apply outline-none hover:outline-none focus:outline-none;
+}
