@@ -27,6 +27,9 @@ const config: Config = {
       boxShadow: {
         blur: '0 0px 40px 3px #082BAA'
       },
+      textShadow: {
+        'cyan-line': '10px 3px 38px rgba(14, 165, 233, 0.8)',
+      },
       colors: {
         base: {
           DEFAULT: '#FFFFFF'
@@ -52,6 +55,8 @@ const config: Config = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-textshadow')
+  ],
 };
 export default config;
