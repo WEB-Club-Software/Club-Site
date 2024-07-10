@@ -18,7 +18,7 @@ a {
 }
 
 * {
-    @apply font-bebas !important;
+    /* @apply font-bebas ; */
     box-sizing: border-box;
     /*border: 1px solid red;*/
 }

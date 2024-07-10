@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     fontFamily: {
       // 'base': ['Inter', 'sans-serif'],
-      'bebas': ['"Bebas Neue"','Bebas-Neue','Bebas_Neue', 'BebasNeue' , 'sans-serif'],
+      'bebas': ['"Bebas Neue"', 'sans-serif'],
     },
     extend: {
       backgroundImage: {
