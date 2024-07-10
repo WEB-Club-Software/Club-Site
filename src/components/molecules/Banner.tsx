@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="h-[calc(100vh-2rem)] flex flex-col md:flex-row items-center md:items-center gap-8 md:gap-14 p-12">
       <div className="flex flex-col items-center md:items-start md:w-1/2 p-10 pr-50">
         <div className="start-col mb-32 ">
-          <span className="lg:text-title text-subtitle font-bold font-playwrite">CLUB DE</span>
+          <span className="lg:text-title text-subtitle font-bold font-bebas">CLUB DE</span>
           <h1 className="lg:text-headline text-bigTitle font-bold text-shadow-cyan-line">SOFTWARE</h1>
           <h2 className="lg:text-subtitle text-small">
             Universidad de las Fuerzas Armadas ESPE

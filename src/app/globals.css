@@ -2,12 +2,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 html,
 body {
     padding: 0;
     margin: 0;
-    font-family: Inter, sans-serif;
+    /* font-family: Inter, sans-serif; */
+    font-family: Bebas_Neue, sans-serif;
     background: #202020;
     color: #fff;
 }
@@ -18,7 +18,7 @@ a {
 }
 
 * {
-    @apply font-base !important;
+    @apply font-bebas !important;
     box-sizing: border-box;
     /*border: 1px solid red;*/
 }

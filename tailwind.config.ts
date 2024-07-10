@@ -8,9 +8,8 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      'base': ['Inter', 'sans-serif'],
-      'bebas': ['Bebas Neue', 'cursive'],
-      'playwrite': ['Playwrite PE', 'cursive']
+      // 'base': ['Inter', 'sans-serif'],
+      'bebas': ['"Bebas Neue"','Bebas-Neue','Bebas_Neue', 'BebasNeue' , 'sans-serif'],
     },
     extend: {
       backgroundImage: {
