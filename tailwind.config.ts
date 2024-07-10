@@ -8,13 +8,15 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      base: ['Inter', 'sans-serif']
+      'base': ['Inter', 'sans-serif'],
+      'bebas': ['Bebas Neue', 'cursive'],
+      'playwrite': ['Playwrite PE', 'cursive']
     },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontSize: {
         headline: '96px',
