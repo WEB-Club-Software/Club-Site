@@ -3,7 +3,12 @@ import BaseButton from "../atoms/BaseButton";
 
 const Banner = () => {
   return (
-    <div className="h-[calc(100vh-12rem)] center-col md:mt-0 gap-8">
+    <div className="relative h-[calc(100vh)] center-col md:mt-0 gap-8 bg-cover bg-center" style={{ 
+      backgroundImage: "url('/images/fondomain.svg')", 
+      backgroundSize: 'cover',
+      backgroundPosition: 'left', 
+      backgroundRepeat: 'no-repeat' 
+    } } >
       <Image src="/images/LoboBlanco.svg" alt="logo" width={152} height={172} />
       <div className="center-col">
         <span className="lg:text-title text-subtitle">Club de</span>
