@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <BasePage>
-      <Banner />
+      <Banner /> 
       <div className="h-screen overflow-hidden hidden lg:block relative">
         <Image
           alt="grid"
