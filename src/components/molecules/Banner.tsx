@@ -1,7 +1,10 @@
 import Image from "next/image";
 import BaseButton from "../atoms/BaseButton";
 
+const URL_APPLY_NEW_MEMBERS = 'https://forms.gle/ufKn9RsW6Vshgzqo7'
+
 const Banner = () => {
+
   return (
     <div className="h-[calc(100vh-2rem)] flex flex-col md:flex-row items-center md:items-center gap-8 md:gap-14 p-12"  style={{ 
       backgroundImage: "url('/images/fondomain.svg')", 
@@ -18,7 +21,7 @@ const Banner = () => {
           </h2>
         </div>
         <div className="center lg:flex-row flex-col gap-12 z-10 p-3  w-full">
-          <BaseButton text="Aplicar" />
+          <BaseButton text="Aplicar" href={URL_APPLY_NEW_MEMBERS}  />
           <BaseButton text="Conocer a los miembros" className="w-3/4"/>
         </div>
         {/* <p className="text-[#585353] mt-4">
