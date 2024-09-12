@@ -17,13 +17,13 @@ const Banner = () => {
             Universidad de las Fuerzas Armadas ESPE
           </h2>
         </div>
-        <div className="center lg:flex-row flex-col gap-12 z-10">
+        <div className="center lg:flex-row flex-col gap-12 z-10 p-3  w-full">
           <BaseButton text="Aplicar" />
-          <BaseButton text="Conocer a los miembros" />
+          <BaseButton text="Conocer a los miembros" className="w-3/4"/>
         </div>
-        <p className="text-[#585353] mt-4">
+        {/* <p className="text-[#585353] mt-4">
           ¿Ya formas parte del club? <strong className="text-white"><a href="#">Ingresa aqui</a></strong>
-        </p>
+        </p> */}
       </div>
       <div className="flex justify-center md:justify-end md:w-1/2">
         <Image src="/images/LoboBlanco.svg" alt="logo" width={442} height={500} />
