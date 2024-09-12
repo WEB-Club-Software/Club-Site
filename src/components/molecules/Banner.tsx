@@ -3,7 +3,12 @@ import BaseButton from "../atoms/BaseButton";
 
 const Banner = () => {
   return (
-    <div className="h-[calc(100vh-2rem)] flex flex-col md:flex-row items-center md:items-center gap-8 md:gap-14 p-12">
+    <div className="h-[calc(100vh-2rem)] flex flex-col md:flex-row items-center md:items-center gap-8 md:gap-14 p-12"  style={{ 
+      backgroundImage: "url('/images/fondomain.svg')", 
+      backgroundSize: 'cover',
+      backgroundPosition: 'left', 
+      backgroundRepeat: 'no-repeat' 
+    } }>
       <div className="flex flex-col items-center md:items-start md:w-1/2 p-10 pr-50">
         <div className="start-col mb-32 ">
           <span className="lg:text-title text-subtitle font-bold font-bebas">CLUB DE</span>
