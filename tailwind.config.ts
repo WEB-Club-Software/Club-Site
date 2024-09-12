@@ -8,13 +8,14 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      base: ['Inter', 'sans-serif']
+      // 'base': ['Inter', 'sans-serif'],
+      'bebas': ['"Bebas Neue"', 'sans-serif'],
     },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontSize: {
         headline: '96px',
@@ -26,6 +27,9 @@ const config: Config = {
       },
       boxShadow: {
         blur: '0 0px 40px 3px #082BAA'
+      },
+      textShadow: {
+        'cyan-line': '10px 3px 38px rgba(14, 165, 233, 0.8)',
       },
       colors: {
         base: {
@@ -52,6 +56,8 @@ const config: Config = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-textshadow')
+  ],
 };
 export default config;
